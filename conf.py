@@ -187,9 +187,9 @@ latex_additional_files = ['_static/latex-note.png', '_static/latex-warning.png']
 # Grouping the document tree into LaTeX files. List of tuples
 # (source start file, target name, title, author, document class [howto/manual]).
 latex_documents = [
-  ('latexindex', 'pyramid.tex',
-   'The Pyramid Web Framework',
-   'Chris McDonough', 'manual'),
+  ('index', 'pytn2014.tex',
+   'PyTennessee 2014 Pyramid Tutorial',
+   'Tres Seaver', 'manual'),
     ]
 
 # For "manual" documents, if this is true, then toplevel headings are parts,
