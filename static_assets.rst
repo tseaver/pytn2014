@@ -1,7 +1,7 @@
 .. _qtut_static_assets:
 
 ==========================================
-13: CSS/JS/Images Files With Static Assets
+09: CSS/JS/Images Files With Static Assets
 ==========================================
 
 Of course the Web is more than just markup. You need static assets:

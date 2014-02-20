@@ -1,7 +1,7 @@
 .. _qtut_request_response:
 
 =======================================
-10: Handling Web Requests and Responses
+07: Handling Web Requests and Responses
 =======================================
 
 Web applications handle incoming requests and return outgoing responses.

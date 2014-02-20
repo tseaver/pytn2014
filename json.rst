@@ -1,7 +1,7 @@
 .. _qtut_json:
 
 ========================================
-14: Ajax Development With JSON Renderers
+10: Ajax Development With JSON Renderers
 ========================================
 
 Modern web apps are more than rendered HTML. Dynamic pages now use

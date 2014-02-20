@@ -1,7 +1,7 @@
 .. _qtut_more_view_classes:
 
 ==========================
-15: More With View Classes
+11: More With View Classes
 ==========================
 
 Group views into a class, sharing configuration, state, and logic.
@@ -53,7 +53,7 @@ Objectives
 Steps
 =====
 
-#. First we copy the results of the previous step:
+#. First we copy the results of the ``templating`` step:
 
    .. code-block:: bash
 

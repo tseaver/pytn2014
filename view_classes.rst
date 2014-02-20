@@ -1,7 +1,7 @@
 .. _qtut_view_classes:
 
 ======================================
-09: Organizing Views With View Classes
+06: Organizing Views With View Classes
 ======================================
 
 Change our view functions to be methods on a view class,

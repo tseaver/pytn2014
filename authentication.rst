@@ -1,5 +1,5 @@
 ==============================
-20: Logins With Authentication
+12: Logins With Authentication
 ==============================
 
 Login views that authenticate a username/password against a list of
@@ -10,7 +10,7 @@ Background
 
 Most web applications have URLs that allow people to add/edit/delete
 content via a web browser. Time to add
-:ref:`security <security_chapter>`
+:ref:`security <pyramid:security_chapter>`
 to the application. In this first step we introduce authentication.
 That is, logging in and logging out using Pyramid's rich facilities for
 pluggable user storages.

@@ -1,7 +1,7 @@
 .. _qtut_views:
 
 =================================
-07: Basic Web Handling With Views
+04: Basic Web Handling With Views
 =================================
 
 Organize a views module with decorators and multiple views.
@@ -42,7 +42,7 @@ Steps
 
    .. code-block:: bash
 
-    $ cd ..; cp -r functional_testing views; cd views
+    $ cd ..; cp -r ini views; cd views
     $ $VENV/bin/python setup.py develop
 
 #. Our ``views/tutorial/__init__.py`` gets a lot shorter:
@@ -116,7 +116,5 @@ Extra Credit
 #. Why might ``assertIn`` be a better choice in testing the text in
    responses than ``assertEqual``?
 
-.. seealso:: :ref:`views_chapter`,
-   :ref:`view_config_chapter`, and
-   :ref:`debugging_view_configuration`
+.. seealso:: :ref:`pyramid:views_chapter` and :ref:`pyramid:view_config_chapter`
 

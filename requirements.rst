@@ -89,7 +89,7 @@ We will arrive at a directory structure of
 ``quick_tutorial``. The following diagram shows how this is structured
 and where our virtual environment will reside:
 
-.. figure:: ../_static/directory_structure_pyramid.png
+.. figure:: _static/directory_structure_pyramid.png
    :alt: Final directory structure
 
    Final directory structure.

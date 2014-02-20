@@ -1,8 +1,8 @@
 .. _quick_tutorial:
 
-==========================
-Quick Tutorial for Pyramid
-==========================
+=================================
+PyTennessee 2014 Pyramid Tutorial
+=================================
 
 Pyramid is a web framework for Python 2 and 3. This tutorial gives a
 Python 3/2-compatible, high-level tour of the major features.
@@ -18,27 +18,17 @@ Contents
     :maxdepth: 1
 
     requirements
-    tutorial_approach
-    scaffolds
     hello_world
     package
     ini
-    debugtoolbar
-    unit_testing
-    functional_testing
     views
     templating
     view_classes
     request_response
     routing
-    jinja2
     static_assets
     json
     more_view_classes
-    logging
-    sessions
-    forms
-    databases
     authentication
     authorization
 

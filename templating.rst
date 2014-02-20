@@ -1,7 +1,7 @@
 .. _qtut_templating:
 
 ===================================
-08: HTML Generation With Templating
+05: HTML Generation With Templating
 ===================================
 
 Most web frameworks don't embed HTML in programming code. Instead,
@@ -119,5 +119,5 @@ views.
 Note the effect on testing. We can focus on having a data-oriented
 contract with our view code.
 
-.. seealso:: :ref:`templates_chapter`, :ref:`debugging_templates`, and
-   :ref:`available_template_system_bindings`.
+.. seealso:: :ref:`pyramid:templates_chapter` and
+   :ref:`pyramid:available_template_system_bindings`.

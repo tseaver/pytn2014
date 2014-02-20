@@ -1,5 +1,5 @@
 ===========================================
-21: Protecting Resources With Authorization
+13: Protecting Resources With Authorization
 ===========================================
 
 Assign security statements to resources describing the permissions
