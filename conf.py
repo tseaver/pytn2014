@@ -151,11 +151,11 @@ if 'sphinx-build' in ' '.join(sys.argv):  # protect against dumb importers
     sys.path.append(os.path.abspath('_themes'))
 
 html_theme_path = ['_themes']
-html_theme = 'pyramid'
-html_theme_options = dict(
-    github_url='https://github.com/Pylons/pyramid',
-    in_progress='true',
-    )
+#html_theme = 'pyramid'
+#html_theme_options = dict(
+    #github_url='https://github.com/Pylons/pyramid',
+    #in_progress='true',
+#    )
 
 # The name for this set of Sphinx documents.  If None, it defaults to
 # "<project> v<release> documentation".
