@@ -43,12 +43,6 @@ Steps
    .. literalinclude:: static_assets/tutorial/static/app.css
     :language: css
 
-#. Make sure we haven't broken any existing code by running the tests:
-
-   .. code-block:: bash
-
-    $ $VENV/bin/nosetests tutorial
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
