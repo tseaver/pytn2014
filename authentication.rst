@@ -56,6 +56,10 @@ Steps
    .. literalinclude:: authentication/tutorial/security.py
     :linenos:
 
+   .. note:: we have to provide an ``authorization policy`` too, which
+             we don't really need, due to a quirk in Pyramid's configuration
+             rules.
+
 #. Update the views in ``authentication/tutorial/views.py``:
 
    .. literalinclude:: authentication/tutorial/views.py
