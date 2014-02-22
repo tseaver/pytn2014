@@ -56,23 +56,6 @@ Steps
    .. literalinclude:: views/tutorial/views.py
     :linenos:
 
-#. Update the tests to cover the two new views:
-
-   .. literalinclude:: views/tutorial/tests.py
-    :linenos:
-
-#. Now run the tests:
-
-   .. code-block:: bash
-
-
-    $ $VENV/bin/nosetests tutorial
-    .
-    ----------------------------------------------------------------------
-    Ran 4 tests in 0.141s
-
-    OK
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
@@ -112,9 +95,6 @@ Extra Credit
 ============
 
 #. What does the dot in ``.views`` signify?
-
-#. Why might ``assertIn`` be a better choice in testing the text in
-   responses than ``assertEqual``?
 
 .. seealso:: :ref:`pyramid:views_chapter` and :ref:`pyramid:view_config_chapter`
 
