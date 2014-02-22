@@ -80,24 +80,6 @@ Steps
    .. literalinclude:: templating/development.ini
     :language: ini
 
-#. Our unit tests in ``templating/tutorial/tests.py`` can focus on
-   data:
-
-   .. literalinclude:: templating/tutorial/tests.py
-    :linenos:
-
-#. Now run the tests:
-
-   .. code-block:: bash
-
-
-    $ $VENV/bin/nosetests tutorial
-    .
-    ----------------------------------------------------------------------
-    Ran 4 tests in 0.141s
-
-    OK
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
@@ -118,6 +100,15 @@ views.
 
 Note the effect on testing. We can focus on having a data-oriented
 contract with our view code.
+
+Extra Credit
+============
+
+# What causes ``pyramid_chameleon`` to be fetched / installed?  Used
+  as a renderer?
+
+# What other options are available for templating?
+
 
 .. seealso:: :ref:`pyramid:templates_chapter` and
    :ref:`pyramid:available_template_system_bindings`.
