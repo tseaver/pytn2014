@@ -71,7 +71,8 @@ New to Python web programming? If so, some lines in module merit
 explanation:
 
 #. *Line 11*. The ``if __name__ == '__main__':`` is Python's way of
-   saying "Start here when running from the command line".
+   saying "Run only when running from the command line" (as opposed to
+   when importing the file as a module).
 
 #. *Lines 12-14*. Use Pyramid's :term:`configurator` to connect
    :term:`view` code to a particular URL
