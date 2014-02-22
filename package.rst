@@ -97,16 +97,22 @@ In this step we have a Python package called ``tutorial``. We use the
 same name in each step of the tutorial, to avoid unnecessary re-typing.
 
 Above this ``tutorial`` directory we have the files that handle the
-packaging of this, well, package. At the moment, all we need is a
-bare-bones ``ini/setup.py``.
+packaging of project. At the moment, all we need is a bare-bones
+``setup.py``.
 
 Everything else is the same about our application. We simply made a
-Python package with a ``setup.py`` and installed it in development mode.
+Python package with a ``setup.py`` and installed it in development mode
+via ``setup.py develop``.
 
 Note that the way we're running the app (``python tutorial/app.py``) is a bit
 of an odd duck.  We would never do this unless we were writing a tutorial that
 tries to capture how this stuff works a step at a time.  It's generally a bad
 idea to run a Python module inside a package directly as a script.
+
+Extra Credit
+============
+
+# How else could you run a package-based application?
 
 .. seealso:: :ref:`Python Packages <python:tut-packages>`,
    `setuptools Entry Points <http://pythonhosted.org/setuptools/pkg_resources.html#entry-points>`_
