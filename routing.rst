@@ -26,7 +26,7 @@ Previously we saw the basics of routing URLs to views in
     Why do this twice? Other Python web frameworks let you create a
     route and associate it with a view in one step. Multiple routes might
     match the same URL pattern. Rather than provide ways to help guess,
-    Pyramid lets you be explicit in ordering. Pyramid also gives facilities
+    Pyramid makes you be explicit in ordering. Pyramid also gives facilities
     to avoid the problem.  It's relatively easy to build a system that uses
     implicit route ordering with Pyramid too.  See `The Groundhog series of
     screencasts <http://bfg.repoze.org/videos#groundhog1>`_ if you're
@@ -65,17 +65,6 @@ Steps
    .. literalinclude:: routing/tutorial/home.pt
     :language: html
     :linenos:
-
-#. Update ``routing/tutorial/tests.py``:
-
-   .. literalinclude:: routing/tutorial/tests.py
-    :linenos:
-
-#. Now run the tests:
-
-   .. code-block:: bash
-
-    $ $VENV/bin/nosetests tutorial
 
 #. Run your Pyramid application with:
 
