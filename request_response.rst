@@ -51,16 +51,6 @@ Steps
 
    .. literalinclude:: request_response/tutorial/views.py
 
-#. Update the tests in ``request_response/tutorial/tests.py``:
-
-   .. literalinclude:: request_response/tutorial/tests.py
-
-#. Now run the tests:
-
-   .. code-block:: bash
-
-    $ $VENV/bin/nosetests tutorial
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
@@ -88,10 +78,6 @@ the name is included in the body of the response::
 
 Finally, we set the response's content type and body, then return the
 Response.
-
-We updated the unit and functional tests to prove that our code
-does the redirection, but also handles sending and not sending
-``/plain?name``.
 
 Extra Credit
 ============
