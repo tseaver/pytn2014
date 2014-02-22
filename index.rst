@@ -11,6 +11,12 @@ This hands-on tutorial covers "a little about a lot": practical
 introductions to the most common facilities. Fun, fast-paced, and most
 certainly not aimed at experts of the Pyramid web framework.
 
+.. note::
+
+   This tutorial is cut down from the longer `Pyramid Quick Tutorial
+   <http://docs.pylonsproject.org/projects/pyramid/en/master/quick_tutorial>`_
+   to fit a two-hour time slot.
+
 Contents
 ========
 
