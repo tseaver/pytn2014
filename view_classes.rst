@@ -50,25 +50,6 @@ Steps
    .. literalinclude:: view_classes/tutorial/views.py
     :linenos:
 
-#. Our unit tests in ``view_classes/tutorial/tests.py`` don't run,
-   so let's modify the to import the view class and make an instance
-   before getting a response:
-
-   .. literalinclude:: view_classes/tutorial/tests.py
-    :linenos:
-
-#. Now run the tests:
-
-   .. code-block:: bash
-
-
-    $ $VENV/bin/nosetests tutorial
-    .
-    ----------------------------------------------------------------------
-    Ran 4 tests in 0.141s
-
-    OK
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
@@ -89,10 +70,5 @@ In our ``TutorialViews`` view class you can see that our two view
 classes are logically grouped together as methods on a common class.
 Since the two views shared the same template, we could move that to a
 ``@view_defaults`` decorator on at the class level.
-
-The tests needed to change. Obviously we needed to import the view
-class. But you can also see the pattern in the tests of instantiating
-the view class with the dummy request first, then calling the view
-method being tested.
 
 .. seealso:: :ref:`class_as_view`
