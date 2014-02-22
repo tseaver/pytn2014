@@ -96,16 +96,12 @@ the Pyramid chapter on
 - This function is invoked, with the values from certain ``.ini``
   sections passed in
 
-The ``.ini`` file is also used for two other functions:
+The ``.ini`` file is also used configure the server used to run the
+application:
 
 - *Choice of WSGI server*. ``[server:main]`` wires up the choice of WSGI
   *server* for your WSGI *application*. In this case, we are using
   ``wsgiref`` bundled in the Python library.
-
-- *Python logging*. Pyramid uses Python standard logging, which needs a
-  number of configuration values. The ``.ini`` serves this function.
-  This provides the console log output that you see on startup and each
-  request.
 
 - *Port number*. ``port = 6543`` tells ``wsgiref`` to listen on port
   6543.
@@ -133,14 +129,11 @@ Extra Credit
 #. The entry point in ``setup.py`` didn't mention ``__init__.py`` when
    it the ``main`` function. Why not?
 
+#. What is the purpose of ``**settings``? What does the ``**`` signify?
+
 .. seealso::
    :ref:`project_narr`,
    :ref:`scaffolding_chapter`,
    :ref:`what_is_this_pserve_thing`,
    :ref:`environment_chapter`,
    :ref:`paste_chapter`
-
-Extra Credit
-============
-
-#. What is the purpose of ``**settings``? What does the ``**`` signify?
