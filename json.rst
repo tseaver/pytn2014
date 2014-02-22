@@ -45,18 +45,6 @@ Steps
    .. literalinclude:: json/tutorial/views.py
     :linenos:
 
-#. We need a new functional test at the end of
-   ``json/tutorial/tests.py``:
-
-   .. literalinclude:: json/tutorial/tests.py
-    :linenos:
-
-#. Run the tests:
-
-   .. code-block:: bash
-
-    $ $VENV/bin/nosetests tutorial
-
 #. Run your Pyramid application with:
 
    .. code-block:: bash
